@@ -7,14 +7,14 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-    client.user.setPresence({
-        status: "online",  //You can show online, idle....
-        game: {
-            name: "VERIFICATION",  //The message shown
-            type: "PLAYING" //PLAYING: WATCHING: LISTENING: STREAMING:
-        }
-    });
- });
+client.user.setPresence({
+    status: "online",  //You can show online, idle....
+    game: {
+        name: "VERIFICATION",  //The message shown
+        type: "PLAYING" //PLAYING: WATCHING: LISTENING: STREAMING:
+    }
+});
+
 
 client.on("message", async message => {
   // This event will run on every single message received, from any channel or DM.
