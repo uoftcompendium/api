@@ -7,10 +7,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.user.setActivity("on your face", {
-    type: "PLAYING",
-    name: "VERIFICATION"
-});
 
 client.on("message", async message => {
   // This event will run on every single message received, from any channel or DM.
