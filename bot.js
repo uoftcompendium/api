@@ -68,7 +68,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     message.delete().catch(O_o=>{}); 
     // And we get the bot to say the thing: 
@@ -80,7 +80,7 @@ client.on("message", async message => {
   mention = message.mentions.users.first();
   if(command === "notify") {
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
       mentionMessage = message.content.slice(8).split(' ')
       mentionMessage.shift()
       mentionMessage = mentionMessage.join(' ')
@@ -94,7 +94,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`566273291363287051` <:snowflake_ID:717854309081022528>");
@@ -104,7 +104,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("Error: (0) results found for query " + "`566273291363287001` <:snowflake_error:717856466203312128>");
@@ -114,7 +114,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`591634071134928927` <:snowflake_ID:717854309081022528>");
@@ -124,7 +124,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`591634092697714688` <:snowflake_ID:717854309081022528>");
@@ -134,7 +134,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592011460075585566` <:snowflake_ID:717854309081022528>");
@@ -144,7 +144,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592011489162821669` <:snowflake_ID:717854309081022528>");
@@ -154,7 +154,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592011558155059289` <:snowflake_ID:717854309081022528>");
@@ -164,7 +164,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592013111746101248` <:snowflake_ID:717854309081022528>");
@@ -174,7 +174,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592618517883518977` <:snowflake_ID:717854309081022528>");
@@ -184,7 +184,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592618598455967774` <:snowflake_ID:717854309081022528>");
@@ -194,7 +194,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592618613756919829` <:snowflake_ID:717854309081022528>");
@@ -204,7 +204,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592618722204712979` <:snowflake_ID:717854309081022528>");
@@ -214,7 +214,7 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592618819328016394` <:snowflake_ID:717854309081022528>");
@@ -224,17 +224,17 @@ client.on("message", async message => {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`593694202882424832` <:snowflake_ID:717854309081022528>");
   }
     
-  if(command === "display_592618722204712979") {
+  if(command === "extract_592618722204712979") {
     // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
     // To get the "message" itself we join the `args` back into a string with spaces: 
     if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
-      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+      return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
     message.channel.send("(1) result found for query " + "`592618722204712979` <:snowflake_ID:717854309081022528>\n`instead I felt recoil and laughter and that sick thrill of violence`");
