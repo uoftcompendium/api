@@ -240,6 +240,16 @@ client.on("message", async message => {
     message.channel.send("(1) result found for query " + "`592618722204712979` <:snowflake_ID:717854309081022528>\n`instead I felt recoil and laughter and that sick thrill of violence`");
   }
     
+  if(command === "verify" + "592618722204712979") {
+    // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
+    // To get the "message" itself we join the `args` back into a string with spaces: 
+    if(!message.member.roles.some(r=>["tank"].includes(r.name)) )
+      return message.reply("you have no power here");    const sayMessage = args.join(" ");
+    // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
+    // And we get the bot to say the thing: 
+    message.channel.send("(1) result found for query " + "`592618722204712979` <:snowflake_ID:717854309081022528>");
+  }
+    
 
 
   
