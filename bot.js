@@ -237,6 +237,7 @@ client.on("message", async message => {
       return message.reply("Error: insufficient_permissions <:snowflake_error:717856466203312128>");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
+    message.channel.send("Indexing API ...");
     message.channel.send("(1) result found for query " + "`592618722204712979` <:snowflake_ID:717854309081022528>\n`instead I felt recoil and laughter and that sick thrill of violence`");
   }
 
