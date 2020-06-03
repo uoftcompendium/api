@@ -237,7 +237,7 @@ client.on("message", async message => {
       return message.reply("you have no power here");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
-    message.channel.send("(1) result found for query " + "`592618722204712979` <:snowflake_ID:717854309081022528> \n `instead I felt recoil and laughter and that sick thrill of violence`");
+    message.channel.send("(1) result found for query " + "`592618722204712979` <:snowflake_ID:717854309081022528>\n`instead I felt recoil and laughter and that sick thrill of violence`");
   }
     
 
