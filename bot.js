@@ -7,7 +7,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-bot.user.setActivity({ game: { name: 'VERIFICATION', type: "playing"}}); 
+client.user.setActivity({ game: { name: 'VERIFICATION', type: "playing"}}); 
 
 
 client.on("message", async message => {
