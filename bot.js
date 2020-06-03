@@ -97,7 +97,7 @@ client.on("message", async message => {
       return message.reply("you have no power here");    const sayMessage = args.join(" ");
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     // And we get the bot to say the thing: 
-    message.channel.send("Config loaded. State parameters. <a:CONFIG:714540323577266226>");
+    message.channel.send("(1) result found for query" + "`566273291363287051`.");
   }
  
   
