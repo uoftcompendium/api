@@ -7,13 +7,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.user.setPresence({
-    status: "online",  //You can show online, idle....
-    game: {
-        name: "VERIFICATION",  //The message shown
-        type: "PLAYING" //PLAYING: WATCHING: LISTENING: STREAMING:
-    }
-});
+bot.user.setPresence({ game: { name: 'VERIFICATION', type: "playing"}}); 
 
 
 client.on("message", async message => {
